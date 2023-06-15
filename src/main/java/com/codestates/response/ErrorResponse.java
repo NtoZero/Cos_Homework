@@ -86,6 +86,7 @@ public class ErrorResponse {
         }
     }
 
+    @Getter
     public static class BusinessLogicError {
         private int status;
         private String message;
